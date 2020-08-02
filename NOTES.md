@@ -96,11 +96,11 @@ substituting the second equation into the first gives us
 
 If the acceleration is from rest then initial velocity is zero, in which case the equation can be simplified as:
 
-
+{% raw %}
 \( 
 Δx = \frac{v_{final}}{2}  Δt
 \)
-
+{% endraw %}
 
 ### Final Velocity, acceleration and time
 
