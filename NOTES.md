@@ -81,9 +81,9 @@ $$
 Formula for final velocity
 
 {% raw %}
-\\(
+$$
 v_f = v_i + aΔt
-\\)
+$$
 {% endraw %}
 
 
@@ -91,44 +91,44 @@ v_f = v_i + aΔt
 
 An object with average velocity *v* for time *Δt* will be displaced *Δx* 
 
-\\(
+$$
 Δx = v * Δt
-\\)
+$$
 
 
 If acceleration is constant, then we can say the average velocity is 
 
-$v_{average} = \frac{v_{final} + v_{initial}}{2}$
+$$v_{average} = \frac{v_{final} + v_{initial}}{2}$$
 
 
 substituting the second equation into the first gives us
 
-\(
+$$
 Δx = \frac{v_{final} + v_{initial}}{2}  Δt
-\)
+$$
 
 If the acceleration is from rest then initial velocity is zero, in which case the equation can be simplified as:
 
 {% raw %}
-\( 
+$$ 
 Δx = \frac{v_{final}}{2}  Δt
-\)
+$$
 {% endraw %}
 
 ### Final Velocity, acceleration and time
 
 Acceleration is the rate of change of velocity.
 
-\( 
+$$ 
 a = \frac{Δv}{Δt}
-\)
+$$
 
 Final velocity is initial velocity + the change in velocity:
-\( 
+$$ 
 v_f = v_i + Δv
 \\
 \therefore  v_f = v_i + aΔt
-\)
+$$
 
 
 ### Deriving unknown values from known values
@@ -139,14 +139,14 @@ These formula can be re arranged to derive unknown values from values that are k
 
 [Derive acceleration from displacement and velocities](derive-acceleration-from-displacement-and-velocities.md)
 
-\( 
+$$ 
 a = {
   \frac
   {v_i^2 +  v_i^2}
   {2Δx}
 } 
 \\
-\)
+$$
 
 
 
@@ -156,68 +156,68 @@ Substituting in the acceleration formula we can remove the final velocity if it 
 
 
 
-\(\sf 
+$$\sf 
 acceleration =  \frac{  v_{final} - v_{initial} } {\Delta t} 
-\)
+$$
 
 
 
-\(\sf 
+$$\sf 
 \therefore acceleration * {\Delta t} =   v_{final} - v_{initial}  
-\)
+$$
 
 
-\(\sf 
+$$\sf 
 \therefore  v_{final}  = a * {\Delta t} + v_{initial} 
-\)
+$$
 
-\(\sf  
+$$\sf  
 Δx = \frac{1}{2} * (v_{initial} + v_{final})  * Δt
-\)
+$$
 
-\(\sf  
+$$\sf  
 = \frac{1}{2} * (v_{initial} + a * {\Delta t} + v_{initial} )  * Δt
-\)
+$$
 
-\(\sf  
+$$\sf  
 = ( \frac{1}{2} * 2  v_{initial} * Δt)  + (\frac{1}{2} a  * Δt * Δt)
-\)
+$$
 
-\(\sf  
+$$\sf  
 = v_{initial}Δt + \frac{1}{2}aΔt^2
-\)
+$$
 
 
 or we can remove the time if it is not known:
 
-\(\sf 
+$$\sf 
 a =  \frac{  v_{final} - v_{initial} } {\Delta t} 
-\)
+$$
 
-\(\sf 
+$$\sf 
 \therefore  Δt =  \frac{  v_{final} - v_{initial} } a
-\)
+$$
 
 
-\(\sf  
+$$\sf  
 Δx = \frac{1}{2} * (v_{initial} + v_{final})  * Δt
-\)
+$$
 
-\(\sf  
+$$\sf  
 \therefore 2Δx = (v_{initial} + v_{final})  * Δt
-\)
+$$
 
-\(\sf  
+$$\sf  
 = (v_{initial} + v_{final})  * \frac{  v_{final} - v_{initial} } a
-\)
+$$
 
-\(\sf  
+$$\sf  
 \therefore 2Δxa = (v_{initial} + v_{final})  *  ( v_{final} - v_{initial} )
-\)
+$$
 
-\(\sf  
+$$\sf  
 \therefore 2Δxa = v_{initial}^2 - v_{initial}^2
-\)
+$$
 
  -->
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
