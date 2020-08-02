@@ -91,9 +91,9 @@ v_f = v_i + aΔt
 
 An object with average velocity *v* for time *Δt* will be displaced *Δx* 
 
-\(
+\\(
 Δx = v * Δt
-\)
+\\)
 
 
 If acceleration is constant, then we can say the average velocity is 
