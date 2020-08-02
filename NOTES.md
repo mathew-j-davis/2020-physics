@@ -41,9 +41,9 @@ Displacement is a *vector* quantity - it has magnitude and direction.
 Speed is the rate of change of distance travelled.
 Distance travelled is a scalar quantity, so speed is a scalar quantity.
 
-\(
+$$
 speed =  \frac{distance}{\Delta t} = \frac{distance} { t_{final} - t_{initial} }
-\)
+$$
 
 # Velocity 
 
@@ -64,9 +64,9 @@ Acceleration is the rate of change of Velocity
 Acceleration is a vector quantity
 Acceleration has magnitude and direction
 
-\(
+$$
 acceleration =  \frac{\Delta v}{\Delta t} = \frac{ v_{final} - v_{initial} } { t_{final} - t_{initial} }
-\)
+$$
 
 # Displacement, time, velocity and acceleration
 
@@ -74,16 +74,16 @@ Where acceleration is constant the following two formula describe the relationsh
 
 Formula for displacement:
 
-\(  
+$$
 Δx = \frac{1}{2} (v_i + v_f)  Δt 
-\)
+$$
 
 Formula for final velocity
 
 {% raw %}
-\(
+\\(
 v_f = v_i + aΔt
-\)
+\\)
 {% endraw %}
 
 
