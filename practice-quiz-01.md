@@ -49,42 +49,49 @@ Calculate time to final velocity.
 ```python
 
 velocity_initial = 55 * 1000 / (60 * 60) # m/s
-print(round(velocity_initial,2)) 
+round(velocity_initial,2)
 
 velocity_final = 110 * 1000 / (60 * 60) # m/s
-print(round(velocity_final,2)) 
+round(velocity_final,2)
 
 α = 1.5 # m/s^2 
 
 
 Δt = (velocity_final - velocity_initial) / α
-print(round(Δt,2)) 
-print("{:.2e}".format(Δt))
+round(Δt,2)
+# print("{:.2e}".format(Δt))
 # Δt = 10.19
 
-sanity_check = (10 * 1.5) * 60 * 60 / 1000
-print(round(sanity_check,2))
+#sanity_check 
+(10 * 1.5) * 60 * 60 / 1000
+
 
 ```
 
 
-displacement_1 = 30m E
-displacement_2 = 20m E
+First move 30m E
+Then move 20m E
 
-total displacement = 50m E
+What is total displacement?
 
 
 ```python
 
 d = []
-d.append( 30 ) # m W
-d.append( 20 ) # m w
+d.append( 30 ) # m E
+d.append( 20 ) # m E
 
 print(round(sum(d),2))
 
-# answer : 20 m west
+# answer : 50 m E
 
 ```
+
+Go   980m W
+Then 670m E
+Then 200m W
+
+What is total displacement?
 
 
 
@@ -93,7 +100,7 @@ print(round(sum(d),2))
 d = []
 d.append( -980 ) # m W
 d.append(  670 ) # m E
-d.append( -200 ) # m w
+d.append( -200 ) # m W
 
 print(round(sum(d),2))
 
@@ -103,6 +110,9 @@ print(round(sum(d),2))
 
 
 
+Go   500m E
+Then 800m W
+Then 40m W
 
 ```python
 
@@ -117,12 +127,16 @@ print(round(sum(d),2))
 
 ```
 
+Displacement 3.0 km S
+Time 5.0 hours
+
+What is average velocity in km/h?
+
 
 ```python
 
-total_displacement = -3.0 # km 
+total_displacement = -3.0 # km S
 time = 5.0 # h
-
 
 v = total_displacement / time # km / h
 
@@ -183,12 +197,6 @@ v1 /  a
 
 ```
 
-If a truck accelerates at a steady 4.4 m/s2, how long will it take to reach a speed of 55 km/h, starting from rest?
-
-
-5 6 7 8 9 10 11 12 1 2 3 4
-
-5 6 7 8 9 10 11 12 13 14 15 16
 
 
 - 20 m 5 am
