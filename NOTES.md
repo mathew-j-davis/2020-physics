@@ -1,3 +1,19 @@
+---
+title: "Using mathjax on GitHub Pages with Jekyll"
+excerpt: "A tutorial on how to set up mathjax on GitHub Pages with Jekyll"
+excerpt_separator: "<!--more-->"
+categories:
+  - Random
+tags:
+  - Jekyll
+  - mathjax
+  - GitHub Pages
+  - blog
+mathjax: true
+---
+
+
+$$\LaTeX$$ 
 
 
 @import "./math.less"
