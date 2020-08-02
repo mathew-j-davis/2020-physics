@@ -1,0 +1,5 @@
+/cull/*
+/hold/*
+/.vscode/*
+.*
+!/.gitignore
