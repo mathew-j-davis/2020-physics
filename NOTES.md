@@ -1,3 +1,8 @@
+---
+usemathjax: true
+---
+
+
 @import "./math.less"
 
 # Position
