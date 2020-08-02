@@ -55,12 +55,12 @@ Velocity is the rate of change of displacement.
 Displacement is a vector quantity, so velocity is also a vector quantity.
 Velocity has magnitude and direction
 
-\(
+$$
 velocity =  
 \frac
 {\Delta displacement}{\Delta t} 
 = \frac{ x_{final} - x_{initial} } { t_{final} - t_{initial} }
-\)
+$$
 
 # Acceleration  
 
