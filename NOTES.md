@@ -98,9 +98,7 @@ An object with average velocity *v* for time *Δt* will be displaced *Δx*
 
 If acceleration is constant, then we can say the average velocity is 
 
-$
-v_{average} = \frac{v_{final} + v_{initial}}{2} 
-$
+$v_{average} = \frac{v_{final} + v_{initial}}{2}$
 
 
 substituting the second equation into the first gives us
