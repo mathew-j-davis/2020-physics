@@ -1,0 +1,12 @@
+{
+  "editor.tokenColorCustomizations": {"textMateRules": [{
+    "scope": "constant.character.escape.markdown",
+    "settings": {
+        "foreground": "#424552"
+    }
+}]}
+}
+
+
+
+

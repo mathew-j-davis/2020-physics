@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>SEBE Template</title>
+<link rel="stylesheet" type="text/css" href="/content/enforced/384049-SEBE_LST_01/z-intmedia-donotedit/templates/sebe-cf.css">
+</head>
+
+<body class="cloudFirst">
+<h1>1.2 Velocity: Rate of Change of Position</h1>
+<h2>Learning Goal</h2>
+<p>In this module you will:</p>
+<ul>
+<li>Understand the use of the particle model of motion</li>
+<li>Understand speed and velocity and the relationship between them.</li>
+<li>Calculate velocity and speed given initial position, initial time, final position, and final time.</li>
+<li>Determine velocity from a graph of position vs. time.</li>
+<li>Derive a graph of velocity vs. time given a graph of position vs. time.</li>
+</ul>
+<hr />
+<h3>The particle model of motion</h3>
+<p>In <a href="/d2l/common/dialogs/quickLink/quickLink.d2l?ou=880285&amp;type=content&amp;rcode=DeakinUniversity-1697418" target="_self">module 1.1</a> we learnt that displacement and distance indicate how far an object has moved, but this doesn't tell us anything about the <strong>time</strong> it took to move from one point to another. In order to quantify motion, we'll need to consider changes in time, which we call <strong>time intervals</strong>. A time interval <strong>&Delta;<em>t</em></strong> measures the elapsed time as an object moves from an initial position <em>x</em><sub>i</sub> at time <em>t</em><sub>i</sub> to a final position <em>x</em><sub>f</sub> at time <em>t</em><sub>f</sub>. <br />For the purpose of analysing motion, we often consider the object as if it were just a single point. An object that can be represented as a mass at a single point in space is called a <strong>particle</strong> (usually drawn as a dot). This <strong>particle model</strong> of motion allows us to see connections that are important but could be hidden if the entire real object was used.</p>
+<table>
+<tbody>
+<tr>
+<td><img title="Particle" alt="Particle" src="../Images/Particle%20model.jpg" data-d2l-editor-default-img-style="true" style="max-width: 100%;" /></td>
+<td>
+<p>Simplifying motion using the particle model. The particles (dots) could represent any moving object (e.g. car or animal). The dots have been numbered 0, 1, 2,... to tell the sequence in which the frames were exposed. As the same time has elapsed between each particle, then the <em>decreasing distance</em> between the particles shows that the object is <em>slowing down</em> (i.e. less distance travelled in the same amount of time).</p>
+<p></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><strong><span style="color: #9900ff;">Check your understanding of the particle model</span></strong></p>
+<table style="width: 988px;">
+<tbody>
+<tr>
+<td style="width: 286.594px;">
+<p>Two runners jog along a track. The positions are shown at 1 s time intervals. Which runner is moving faster?</p>
+</td>
+<td style="width: 650.406px;"><img title="Particle question" alt="Particle question" src="../Images/Particle%20question.jpg" data-d2l-editor-default-img-style="true" style="max-width: 100%;" /></td>
+</tr>
+</tbody>
+</table>
+<p><span style="color: #000000;"><strong></strong></span>If an object is moving at a constant speed (neither speeding up or slowing down) then it is undergoing uniform motion. The two runners in the above question are in uniform motion.</p>
+<h3>Speed and Velocity</h3>
+<p><strong>Speed</strong> and <strong>velocity</strong> are the quantities we use to describe how fast an object moves.</p>
+<table style="width: 988px;">
+<tbody>
+<tr>
+<td style="width: 609.594px;">
+<p style="text-align: center;"><span style="color: #cc0000;">Speed is the distance travelled per unit of time.</span></p>
+<p style="text-align: center;"><span style="color: #cc0000;">Speed is always a positive scalar.</span></p>
+<p style="text-align: center;"><span style="color: #cc0000;">The average speed is defined as the distance travelled divided by the time elapsed (&Delta;<em>t</em>)</span></p>
+</td>
+<td style="width: 325.406px;"><img title="speed eq" alt="speed eq" src="../Images/Speed%20eq.jpg" data-d2l-editor-default-img-style="true" style="max-width: 100%;" /></td>
+</tr>
+</tbody>
+</table>
+<p>Things in motion often have variations in how fast they travel. The speed at any particular moment is the <em>instantaneous speed</em>. For example, a radar speed gun is a device used to measure the instantaneous speed of moving objects. It is used in law-enforcement to measure the speed of moving vehicles and is often used in sport, for things such as the measurement of bowling speeds in cricket, and tennis serves.</p>
+<p><span style="color: #9900ff;"><strong>Worked example - Speed</strong></span></p>
+<table style="width: 988px;">
+<tbody>
+<tr>
+<td style="width: 534.594px;">
+<p>What is the speed of the car and the bicycle?</p>
+<p><img src="../Images/Speed%20question.jpg" alt="speed question" title="speed question" style="max-width: 100%;" data-d2l-editor-default-img-style="true" /></p>
+</td>
+<td style="width: 403.406px;">
+<p><strong>Solution</strong></p>
+<p>The <strong>car</strong> moves 40 m in 1 s. Its speed is:</p>
+<p style="padding-left: 30px;">speed = distance / time interval = 40 m/s</p>
+<p>The <strong>bike</strong> moves 20 m in 1 s. Its speed is:</p>
+<p style="padding-left: 30px;">speed = distance / time interval = 20 m/s</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>To fully characterise the motion of an object, we must specify not only the object's speed but also the <em>direction</em> in which it is moving. We know from <a href="/d2l/common/dialogs/quickLink/quickLink.d2l?ou=880285&amp;type=content&amp;rcode=DeakinUniversity-1697418" target="_self">Module 1.1</a> that the <em>displacement</em> of an object does contain information about the direction of travel. We can now work out an object's <strong>velocity</strong>.</p>
+<table style="width: 988px;">
+<tbody>
+<tr>
+<td style="width: 630.594px;">
+<p style="text-align: center;"><span style="color: #cc0000;">Velocity is displacement per unit of time.</span></p>
+<p style="text-align: center;"><span style="color: #cc0000;">Velocity is a vector that has both a magnitude and a direction.</span></p>
+<p style="text-align: center;"><span style="color: #cc0000;">The average velocity is defined as the displacement divided by the time interval</span></p>
+</td>
+<td style="width: 305.406px;"><img src="../Images/Velocity%20eq.jpg" alt="velocity equation" title="velocity equation" style="max-width: 100%;" data-d2l-editor-default-img-style="true" /></td>
+</tr>
+</tbody>
+</table>
+<p><span style="color: #9900ff;"><strong>Worked example - Velocity</strong></span></p>
+<table>
+<tbody>
+<tr>
+<td><img src="../Images/Velocity%20question.jpg" alt="velocity question" title="velocity question" style="max-width: 100%;" data-d2l-editor-default-img-style="true" /></td>
+<td>
+<p>The bikes have uniform motion but in different directions. The velocity of the bikes can be calculated using any time point (I've used the time interval between 2&nbsp;and 3&nbsp;s).</p>
+<p><strong>Bike 1</strong>: <em>v</em> = &Delta;<em>x</em> / &Delta;<em>t</em> = (60 - 40) / (3 - 2) = +20 m/s</p>
+<p><strong>Bike 2</strong>: <em>v</em> = &Delta;<em>x</em> / &Delta;<em>t</em> = (60 - 80) / (3 - 2) = -20 m/s</p>
+<p><span style="color: #cc0000;"><strong>The two velocities have opposite signs because the bikes are travelling in opposite directions. By convention, a positive vector indicates motion to the right or upward, and a negative vector for an object moving to the left, or downward.</strong></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>The position-versus-time graph</h3>
+<p>In addition to the particle model, we can also represent linear motion using a graph.</p>
+<table style="width: 988px;">
+<tbody>
+<tr>
+<td style="width: 411.594px;"><img src="../Images/Position-time%20graph.jpg" alt="Position-Time graph" title="Position-Time graph" style="max-width: 100%;" data-d2l-editor-default-img-style="true" /></td>
+<td style="width: 525.406px;">
+<p>This position-versus-time graph shows an object's position as a function of time. The object is moving horizontally, so we use the variable <em>x</em> to describe the motion. The motion graph shows that the object moves from a starting position (<em>x</em> = 0) at a time we choose to call <em>t</em> = 0 min. It moves 200 m in 3 minutes. Then there is a three minute period in which the distance travelled during each time interval becomes shorter. Then at t = 6 min, the distances travelled within each interval are longer.</p>
+<p></p>
+</td>
+</tr>
+<tr>
+<td style="width: 411.594px;"><img src="../Images/Position-time%20graph%202.jpg" alt="Position-Time graph 2" title="Position-Time graph 2" style="max-width: 100%;" data-d2l-editor-default-img-style="true" /></td>
+<td style="width: 525.406px;">
+<p>There is a relationship between the speed of the object and the slope of the graph - a faster speed corresponds to a steeper slope. The slope of the graph is defined as the ratio of the 'rise', the vertical change, to the 'run', the horizontal change. In other words, the slope of an object's position-versus-time graph is the object's velocity at that point in the motion.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h2><strong><span style="color: #cc0000;">Three important things can be derived from a position-versus-time graph.</span></strong></h2>
+<ul>
+<li>Determine an object's <em>position</em> at time <em>t</em> by reading the graph at that instant of time.</li>
+<li>Determine the object's <em>velocity</em> at time<em> t</em> by finding the slope of the position graph at that point. Steeper slopes correspond to faster slopes.</li>
+<li>Determine the <em>direction of motion</em> by noting the sign of the slope. Positive slopes correspond to positive velocities - motion to the right (or up). Negative slopes correspond to negative velocities - motion to the left (or down).<strong> </strong></li>
+</ul>
+<p><b>Using the tactics above we can convert the information from a position-versus-time graph into a velocity-versus-time graph.</b></p>
+<table style="width: 988px;">
+<tbody>
+<tr>
+<td style="width: 476.594px;"><img src="../Images/Velocity%20vs%20time.jpg" alt="Velocity vs time" title="Velocity vs time" style="max-width: 100%;" data-d2l-editor-default-img-style="true" /></td>
+<td style="width: 461.406px;">
+<p>Deducing the velocity-versus-time graph from the position-versus-time graph. Calculating the gradient of the slope for the phases of motion in the position-versus-time graph we get periods of constant velocity. For example, for the first segment of motion:</p>
+<p><img src="../Images/velocity%20from%20position.jpg" alt="velocity from position equation" title="velocity from position equation" style="max-width: 100%;" data-d2l-editor-default-img-style="true" /></p>
+<p>As this velocity is constant, a graph of velocity versus time appears as a horizontal line at 1.0 m/s. Similar calculations can be done for the other segments of motion and combined to form a velocity-versus-time graph.</p>
+<p>From the graph we can see the velocity is always positive as movement was always to the right. We can also see where the object went slower (<em>t</em> = 3-6 min) and faster (<em>t</em> = 6-9 min).</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3><strong></strong>Check your understanding</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p>Here is a motion diagram of a car moving along a straight road:</p>
+<p><img src="../Images/PastedImage_667ey63glj9aqlcv8nzy6ymttc1prcyc00191938260.png" alt="motion diagram of a car moving along a straight road" title="motion diagram of a car moving along a straight road" style="max-width: 100%;" data-d2l-editor-default-img-style="true" /></p>
+<p>Which <strong>position-versus-time</strong> graph matches this motion diagram?</p>
+<p><img src="../Images/PastedImage_4t3vj4tlpabphdsdw4ls8bee1j3fwda200191938260.png" alt="position-versus-time graph" title="position-versus-time graph" style="max-width: 100%;" data-d2l-editor-default-img-style="true" /></p>
+<p>Which <strong>velocity-versus-time</strong> graph matches this motion diagram?</p>
+<p><img src="../Images/PastedImage_i5fjoz8nj9trl5ohhzr4pvmbw29xpga500191938260.png" alt="velocity-versus-time graphs" title="velocity-versus-time graphs" style="max-width: 100%;" data-d2l-editor-default-img-style="true" /></p>
+</td>
+</tr>
+</tbody>
+</table>
+<h2><span style="color: #cc0000;"><br /></span>Activity</h2>
+<p><span style="color: #cc0000;">PRESCRIBED READING: </span>Giambattista <em>Physics</em> (5th ed.). New York: McGraw-Hill, Section 2.2 - Velocity: Rate of Change of Position.</p>
+<p><span style="color: #cc0000;">ADD TO YOUR GLOSSARY OF TERMS:</span> Try to define and summarise terms and concepts as they are introduced. Add to it with each module you do. Include: <strong>uniform motion</strong>, <strong>particle model</strong>, <strong>speed</strong>, <strong>velocity</strong>.</p>
+<p><span style="color: #cc0000;">ADD TO YOUR SUMMARY OF KEY EQUATIONS: Try to summarise key equations and make sure you know how to use the equations in numerical calculations. Add to the list with each module you do. This summary will be useful in the online quizzes and in the examination.</span></p>
+<p><span style="color: #cc0000;"></span></p>
+<p><span style="color: #cc0000;">TRY THE FOLLOWING (attempt questions before looking at the answers): </span></p>
+<p><a href="../Seminars/01.2%20Velocity-%20Rate%20of%20Change%20of%20Position%20practice%20questions.pdf" target="_self">1.2 Velocity- Rate of Change of Position practice questions</a></p>
+<p><a href="../Seminars/01.2%20Velocity-%20Rate%20of%20Change%20of%20Position%20practice%20questions%20-%20ANSWERS.pdf" target="_self">1.2 Velocity- Rate of Change of Position practice questions - ANSWERS</a></p>
+<p><span style="color: #cc0000;">DISCUSSION: <span style="color: #000000;">Use the</span> <a href="/d2l/common/dialogs/quickLink/quickLink.d2l?ou=880285&amp;type=discuss&amp;rcode=DeakinUniversity-1697882" target="_self">TOPIC 1 forum</a> <span style="color: #000000;">for any questions or comments about this module.</span></span></p>
+<hr />
+</body>
+<script defer type="text/javascript" src="/content/enforced/384049-SEBE_LST_01/z-intmedia-donotedit/templates/sebe-master.js"></script>
+</html>
