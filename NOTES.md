@@ -38,7 +38,10 @@ Displacement is a vector quantity, so velocity is also a vector quantity.
 Velocity has magnitude and direction
 
 \(
-velocity =  \frac{\Delta displacement}{\Delta t} = \frac{{ x_{final} - x_{initial} }} { t_{final} - t_{initial} }
+velocity =  
+\frac
+{\Delta displacement}{\Delta t} 
+= \frac{ x_{final} - x_{initial} } { t_{final} - t_{initial} }
 \)
 
 # Acceleration  
@@ -48,7 +51,7 @@ Acceleration is a vector quantity
 Acceleration has magnitude and direction
 
 \(
-acceleration =  \frac{\Delta v}{\Delta t} = \frac{{ v_{final} - v_{initial} }} { t_{final} - t_{initial} }
+acceleration =  \frac{\Delta v}{\Delta t} = \frac{ v_{final} - v_{initial} } { t_{final} - t_{initial} }
 \)
 
 # Displacement, time, velocity and acceleration
