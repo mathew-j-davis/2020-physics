@@ -12,10 +12,6 @@ tags:
 mathjax: true
 ---
 
-
-$$\LaTeX$$ 
-
-
 @import "./math.less"
 
 # Position
@@ -84,10 +80,11 @@ Formula for displacement:
 
 Formula for final velocity
 
+{% raw %}
 \(
 v_f = v_i + aΔt
 \)
-
+{% endraw %}
 
 
 ### Displacement
