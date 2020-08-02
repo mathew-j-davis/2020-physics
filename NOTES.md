@@ -1,6 +1,3 @@
----
-usemathjax: true
----
 
 
 @import "./math.less"
