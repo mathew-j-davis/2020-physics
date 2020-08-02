@@ -7,7 +7,7 @@
 [Displacement Time Velocity And Acceleration](displacement-time-velocity-and-acceleration.md)
 
 
-[NOTES](NOTES.md)
+[Movement Along A Line](movement-along-a-line.md)
 
 
 [Practice Quiz 01](practice-quiz-01.md)
